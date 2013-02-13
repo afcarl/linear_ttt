@@ -1,0 +1,155 @@
+universe = vanilla
+Executable=/lusr/bin/python
++Group   = "GRAD"
++Project = "AI_ROBOTICS"
++ProjectDescription = "Linear value function experiments for cs394r"
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_0.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_0.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_0.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_0.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_1.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_1.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_1.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_1.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_2.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_2.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_2.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_2.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_3.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_3.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_3.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_3.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_4.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_4.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_4.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_4.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_5.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_5.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_5.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_5.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_6.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_6.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_6.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_6.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_7.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_7.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_7.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_7.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_8.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_8.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_8.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_8.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_9.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_9.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_9.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_9.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_10.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_10.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_10.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_10.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_11.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_11.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_11.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_11.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_12.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_12.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_12.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_12.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_13.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_13.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_13.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_13.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_14.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_14.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_14.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_14.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_15.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_15.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_15.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_15.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_16.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_16.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_16.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_16.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_17.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_17.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_17.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_17.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_18.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_18.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_18.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_18.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_19.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_19.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_19.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_19.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_20.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_20.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_20.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_20.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_21.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_21.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_21.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_21.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_22.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_22.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_22.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_22.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_23.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_23.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_23.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_23.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_24.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_24.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_24.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_24.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_25.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_25.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_25.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_25.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_26.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_26.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_26.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_26.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_27.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_27.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_27.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_27.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_28.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_28.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_28.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_28.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/condor_logs/job_29.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/results/random_50_tiles_29.csv random 50 tiles
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/output/output_29.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/random_50_tiles/error/error_29.log
+Queue 1

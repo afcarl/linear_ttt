@@ -33,7 +33,7 @@ Created by Wesley Tansey
 2/10/2013
 Released under the MIT license.
 """
-
+import sys
 import random
 from copy import copy, deepcopy
 import csv
@@ -292,31 +292,40 @@ FEATURES = {
     'random 16 tiles': binary_random_tiles(16),
     'random 20 tiles': binary_random_tiles(20),
     'random 25 tiles': binary_random_tiles(25),
+    'random 30 tiles': binary_random_tiles(30),
+    'random 50 tiles': binary_random_tiles(50),
     'kanerva 15 features and 0 threshold': binary_random_kanerva_features(15,0),
     'kanerva 30 features and 0 threshold': binary_random_kanerva_features(30,0),
     'kanerva 45 features and 0 threshold': binary_random_kanerva_features(45,0),
     'kanerva 60 features and 0 threshold': binary_random_kanerva_features(60,0),
     'kanerva 75 features and 0 threshold': binary_random_kanerva_features(75,0),
+    'kanerva 100 features and 0 threshold': binary_random_kanerva_features(100,0),
     'kanerva 15 features and 1 threshold': binary_random_kanerva_features(15,1),
     'kanerva 30 features and 1 threshold': binary_random_kanerva_features(30,1),
     'kanerva 45 features and 1 threshold': binary_random_kanerva_features(45,1),
     'kanerva 60 features and 1 threshold': binary_random_kanerva_features(60,1),
     'kanerva 75 features and 1 threshold': binary_random_kanerva_features(75,1),
+    'kanerva 100 features and 1 threshold': binary_random_kanerva_features(100,1),
     'kanerva 15 features and 2 threshold': binary_random_kanerva_features(15,2),
     'kanerva 30 features and 2 threshold': binary_random_kanerva_features(30,2),
     'kanerva 45 features and 2 threshold': binary_random_kanerva_features(45,2),
     'kanerva 60 features and 2 threshold': binary_random_kanerva_features(60,2),
     'kanerva 75 features and 2 threshold': binary_random_kanerva_features(75,2),
+    'kanerva 100 features and 2 threshold': binary_random_kanerva_features(100,2),
     'kanerva 15 features and 3 threshold': binary_random_kanerva_features(15,3),
     'kanerva 30 features and 3 threshold': binary_random_kanerva_features(30,3),
     'kanerva 45 features and 3 threshold': binary_random_kanerva_features(45,3),
     'kanerva 60 features and 3 threshold': binary_random_kanerva_features(60,3),
     'kanerva 75 features and 3 threshold': binary_random_kanerva_features(75,3),
+    'kanerva 100 features and 3 threshold': binary_random_kanerva_features(100,3),
 }
 
 
 if __name__ == "__main__":
-    experiment_name = 'all line tiles'
+    outfile = sys.argv[1]
+    experiment_name = sys.argv[2]
+    for x in range(3,len(sys.argv)):
+        experiment_name += " " + sys.argv[x]
     features1 = FEATURES[experiment_name]
     features2 = FEATURES[experiment_name]
     weights1 = np.zeros(len(features1))
@@ -325,33 +334,21 @@ if __name__ == "__main__":
     p2 = LinearSarsaLambdaAgent(2, features2, weights2)
     r1 = RandomAgent(1)
     r2 = RandomAgent(2)
-    series = ['P1-Win','P1-Lose','P1-Draw','P2-Win','P2-Lose','P2-Draw']
-    #series = ['P1-Win', 'P2-Win', 'Draw']
-    colors = ['r','b','g','c','m','b']
-    markers = ['+', '.', 'o', '*', '^', 's']
-    f = open('{0}_results.csv'.format(experiment_name.replace(' ', '_')), 'wb')
-    writer = csv.writer(f)    
+    series = ['Episodes', 'P1-Win','P1-Lose','P1-Draw','P2-Win','P2-Lose','P2-Draw']
+    f = open(outfile, 'wb')
+    writer = csv.writer(f)
     writer.writerow(series)
-    perf = [[] for _ in range(len(series) + 1)]
     for i in range(1000):
         if i % 10 == 0:
             print 'Game: {0}'.format(i)
             probs = measure_performance_vs_random(p1, p2)
-            writer.writerow(probs)
+            writer.writerow([i] + probs)
             f.flush()
-            perf[0].append(i)
-            for idx,x in enumerate(probs):
-                perf[idx+1].append(x)
         winner = play(p1,r2)
         p1.episode_over(winner)
         winner = play(r1,p2)
         p2.episode_over(winner)
+    probs = measure_performance_vs_random(p1, p2)
+    writer.writerow([1000] + probs)
+    f.flush()
     f.close()
-    for i in range(1,len(perf)):
-        plt.plot(perf[0], perf[i], label=series[i-1], color=colors[i-1])
-    plt.xlabel('Episodes')
-    plt.ylabel('Probability')
-    plt.ylim([0,1])
-    plt.title('RL Agent Performance vs. Random Agent\n({0})'.format(experiment_name))
-    plt.legend()
-    plt.savefig('{0}.png'.format(experiment_name.replace(' ', '_')))

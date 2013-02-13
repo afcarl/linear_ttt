@@ -1,0 +1,155 @@
+universe = vanilla
+Executable=/lusr/bin/python
++Group   = "GRAD"
++Project = "AI_ROBOTICS"
++ProjectDescription = "Linear value function experiments for cs394r"
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_0.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_0.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_0.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_0.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_1.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_1.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_1.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_1.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_2.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_2.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_2.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_2.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_3.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_3.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_3.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_3.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_4.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_4.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_4.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_4.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_5.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_5.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_5.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_5.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_6.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_6.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_6.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_6.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_7.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_7.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_7.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_7.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_8.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_8.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_8.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_8.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_9.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_9.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_9.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_9.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_10.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_10.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_10.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_10.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_11.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_11.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_11.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_11.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_12.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_12.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_12.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_12.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_13.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_13.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_13.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_13.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_14.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_14.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_14.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_14.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_15.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_15.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_15.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_15.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_16.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_16.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_16.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_16.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_17.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_17.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_17.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_17.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_18.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_18.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_18.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_18.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_19.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_19.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_19.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_19.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_20.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_20.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_20.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_20.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_21.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_21.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_21.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_21.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_22.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_22.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_22.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_22.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_23.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_23.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_23.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_23.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_24.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_24.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_24.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_24.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_25.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_25.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_25.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_25.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_26.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_26.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_26.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_26.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_27.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_27.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_27.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_27.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_28.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_28.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_28.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_28.log
+Queue 1
+Log = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/condor_logs/job_29.log
+Arguments = tictactoe.py /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/results/naive_29.csv naive
+Output = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/output/output_29.out
+Error = /v/filer4b/v20q001/tansey/school/cs394r/linear_ttt/naive/error/error_29.log
+Queue 1

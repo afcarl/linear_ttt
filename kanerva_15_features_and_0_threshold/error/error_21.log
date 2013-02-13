@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "tictactoe.py", line 347, in <module>
+    winner = play(p1,r2)
+  File "tictactoe.py", line 242, in play
+    agent1.episode_over(winner)
+  File "tictactoe.py", line 95, in episode_over
+    self.backup(self.winnerval(winner))
+  File "tictactoe.py", line 165, in backup
+    self.weights += self.alpha / m * delta * self.eligibility_traces
+ZeroDivisionError: float division
